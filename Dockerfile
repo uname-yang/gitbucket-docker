@@ -11,4 +11,4 @@ EXPOSE 8080
 # Port for SSH
 EXPOSE 29418
 
-CMD ["java -jar /opt/gitbucket.war"]
+CMD ["java","-jar","/opt/gitbucket.war"]
